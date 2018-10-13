@@ -15,11 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('google.co.in')
 
-//WebUI.navigateToUrl('google.co.in')
-
 WebUI.sendKeys(findTestObject('Google/SearchBox'), 'Interceptor 650')
 
 WebUI.click(findTestObject('Google/SearchButton'))
 
-WebUI.closeBrowser();
+WebUI.closeBrowser()
 
